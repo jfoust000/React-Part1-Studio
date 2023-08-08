@@ -1,3 +1,66 @@
 .ingredientList {
-    text-align: left;
+
+    text-align: right;
+    list-style: none;
  }
+
+ .ingredientList :nth-child(1){ 
+
+    background-image: url("https://meat.tamu.edu/files/2020/06/Ground-Beef-@-Rosenthal-2.jpg");
+    padding: 10px 0 10px 84px;
+    background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 40px
+
+}
+
+.ingredientList :nth-child(2){ 
+
+    background-image: url("https://images.bonanzastatic.com/afu/images/48bd/180e/af0c_12305979227/olica_extra20virgin20olive20oil20pet_202020_11_162014_54_2820utc.jpg");
+    padding: 10px 0 10px 84px;
+    background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 40px
+
+}
+
+.ingredientList :nth-child(3){ 
+
+    background-image: url("https://i5.walmartimages.com/seo/Yellow-Onions-Whole-Fresh-Each_980c6780-7179-491e-978f-8101cdda6760.60f5a7e656c6aea9d94f732ca795dddf.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF");
+    padding: 10px 0 10px 84px;
+    background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 40px
+
+}
+
+.ingredientList :nth-child(4){ 
+
+    background-image: url("https://m.media-amazon.com/images/I/71EOnu0jndL.__AC_SY300_SX300_QL70_FMwebp_.jpg");
+    padding: 10px 0 10px 84px;
+    background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 40px
+
+}
+
+.ingredientList :nth-child(5){ 
+
+    background-image: url("https://www.instacart.com/image-server/466x466/filters:fill(FFF,true):format(webp)/www.instacart.com/assets/domains/product-image/file/large_cfbbf4a6-d3ee-4c3a-abcf-98c787114763.jpg");
+    padding: 10px 0 10px 84px;
+    background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 40px
+
+}
+
+
+
+.recipeContainer {
+
+    display: block;
+    text-align: right;
+
+}
+
+ 

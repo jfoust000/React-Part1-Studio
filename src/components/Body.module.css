@@ -1,0 +1,21 @@
+body {
+
+    background-image: linear-gradient(to top, rgb(142, 189, 246), rgb(242, 248, 255));
+
+}
+
+html {
+    
+    height: 100%;
+}
+
+.recipeLayout {
+
+    display: flex;
+
+}
+
+.topContainer {
+    display: flex;
+    justify-content: center;;
+}

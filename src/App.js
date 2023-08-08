@@ -1,13 +1,18 @@
-import RecipeDescription from './components/Description.js';
+import {RecipeDescription} from './components/Description.js';
+import {RecipeAuthor} from './components/Description.js';
 import RecipeIngredients from './components/Ingredients.js';
 import RecipePhoto from './components/RecipePhoto.js';
-import './App.css';
+import styles from './components/Body.module.css';
+import moreStyles from './components/Description.module.css';
 
 function App() {
   return (
-    <div className="recipePhotoBlock">
+    <div>
+    <div className={styles.topContainer}>
+      <RecipeAuthor/>
       <RecipePhoto />
-      <div className="recipePhotoBlock">
+    </div>
+    <div className={moreStyles.recipeInfo}>
         <RecipeDescription />
         <RecipeIngredients />
       </div>

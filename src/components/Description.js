@@ -5,16 +5,16 @@ function RecipeAuthor() {
 
     let authorLink = "https://www.cookingclassy.com/olive-garden-pasta-e-fagioli-soup-copycat-recipe/";
     let authorPhoto = "https://www.cookingclassy.com/wp-content/uploads/2019/08/jaclyn-bell@2x.jpg"
-    let authorName = "jaclyn"
+    let authorName = "Jaclyn"
     let authorLinkText = "Pasta e Fagioli Soup {Better than Olive Garden's}";
 
     return (
 
         <div className={styles.recipeAuthorBlock}>
-            <img src={authorPhoto} alt="Jaclyn" className={styles.imageUpdates}/>
-                <div>
+            <img src={authorPhoto} alt="Jaclyn" className={styles.imageBody}/>
+                <div className={styles.authorName}>
                     <h3>{authorName}</h3> 
-                    <a href={authorLink}>{authorLinkText}</a>
+                    <a href={authorLink} target="_blank">{authorLinkText}</a>
                 </div>
         </div>
 
@@ -32,11 +32,12 @@ class RecipeDescription extends React.Component {
         return (
 
             <div>
-                <div>
+                
+                <div className={styles.recipe}>
                     <h1>{recipeTitle}</h1>   
                     <p>{recipeShortDescription}</p>
                 </div>
-                <RecipeAuthor/>
+                
             </div>
 
         );
@@ -45,4 +46,4 @@ class RecipeDescription extends React.Component {
 
 }
 
-export default RecipeDescription;
+export  {RecipeDescription, RecipeAuthor};

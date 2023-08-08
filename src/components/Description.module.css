@@ -1,8 +1,73 @@
 .recipeAuthorBlock {
-    display: flex;
-    justify-content: space-evenly;
-    }
+
+    display: block;
+    text-align: center;
+    padding-right: 25px;
     
-    .imageUpdates {
-       object-fit: contain;
-    }
+}
+
+.recipeAuthorBlock a{
+
+   font-size: 20pt;
+   text-decoration: none;
+   color:rgb(9, 31, 225);
+   font-weight:bolder;
+
+}
+    
+.imageBody {
+   
+   object-fit: cover;
+   border: 2px solid black;
+   border-radius: 10px;
+   height: 500px;
+       
+}
+
+.authorName {
+
+   font-size: 15pt;
+   
+}
+
+.imageHeader {
+
+   height: 500px;
+   width: 800px;
+   object-fit: cover;
+   border: 2px solid black;
+   border-radius: 10px;
+
+}
+
+.imageHeaderContainer {
+
+   display: flex;
+   justify-content: center;
+     
+
+}
+
+.recipeInfo {
+
+   display: flex;
+   justify-content: center;
+
+}
+      
+.recipeInfo p {
+
+   font-size: 20pt;
+   width: 800px;
+   text-align: left;
+   padding: 2px;
+
+}
+
+.recipe {
+
+   display: block;
+   text-align: center;
+
+}
+    
